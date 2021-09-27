@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>To do list</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <script defer src="main.js"></script>
+  </head>
+  <body>
+      <h1>Cloud training to do list</h1>
+      <div class="list-action">
+        <button  id="archived-todos-button" class="archive">Show Archive</button>
+        <button class="hide-list">Hide List</button>
+      </div>
+      <form>
+        <input class ="todo-input" type="text">
+        <button type="submit" class="todo-button">
+          Add a new task
+        </button>
+      </form>
+
+      <!--todo container-->
+      <div class="todo-container">
+        <ul class="todo-list">
+
+        </ul>
+      </div>
+
+      <!-- archive container-->
+      <div class="archived-todo-container">
+          <ul class="archived-todo-list">
+
+          </ul>
+      </div>
+
+	
+  </body>
+</html>

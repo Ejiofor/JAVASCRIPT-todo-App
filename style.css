@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+
+body {
+    background-color: gray;
+    color: white;
+    min-height: 625px;
+}
+
+h1, form {
+    min-height: 125px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+form input, form button {
+    border: none;
+    font-size: 30px;
+    padding: 10px;
+    background: white;
+}
+
+form button {
+    cursor: pointer;
+    background: lightskyblue;
+}
+
+.todo-container {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    min-height: 30px;
+}
+
+.todo-list {
+    min-width: 30%;
+    list-style: none;
+}
+
+.todo-list-archived {
+    min-width: 30%;
+    list-style: none;
+}
+
+.todo-archived {
+    color: black;
+    margin: 5px;
+    /**background: white;*/
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.todo {
+    color: black;
+    margin: 5px;
+    /**background: white;*/
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.todo-archived li {
+    flex: 1;
+}
+
+.todo li {
+    flex: 1;
+}
+
+.completed-button {
+    background: green;
+}
+
+.completed-button, .delete-button {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.delete-button {
+    background: red;
+}
+
+.completed-task {
+    text-decoration: line-through;
+}
+
+.fa-check, .fa-trash {
+    pointer-events: none;
+}
+
+.list-action {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.archive, .hide-list {
+    min-height: 30px;
+    width: 200px;
+    cursor: pointer;
+}
+
+.archived-todo-container {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    min-height: 30px;
+}
+
+.archived-todo {
+    min-width: 30%;
+    list-style: none;
+}
+
+#clear-all-completed-tasks-container {
+    visibility: visible;
+}
